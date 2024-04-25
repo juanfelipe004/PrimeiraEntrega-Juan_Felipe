@@ -1,0 +1,480 @@
+#header{
+    padding-left: 0;
+    background-color: #8b4c4c;
+    padding-top: 10px;
+    margin-block-end: 0;
+    padding-left: 20px;
+    
+}
+
+.textoc{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    color: black;
+    margin: 0;
+    
+}
+
+#box-svg{
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.link{
+    text-decoration: none;
+}
+
+#mini-bar{
+    background-color: rgb(194, 168, 168);
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    color: black;
+    margin: 0;
+    border-bottom: 4px solid black;
+    
+}
+
+#titulo{
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+
+#textsobre{
+    align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size:19px;
+      padding-bottom: 5rem;
+      padding-left: 10px;
+      padding-left: 10px;
+}
+
+#menu{
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: #313030;
+    top: 70px;
+    z-index: 999;
+}
+
+#carouselExampleSlidesOnly{
+    top: 99px;
+    margin-bottom: 99px;
+}
+
+.nav-link{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+ul.nav a:hover { color: #fff !important; }
+
+.card{
+
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 1.5rem;
+    width: 15rem;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 3rem;
+    }
+
+.card-title{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: black;
+    border-color: black;
+}
+.card-text{
+    color: rgb(204, 0, 0);
+    font-size: 20px;
+    
+}
+
+.cardtextp{
+    color: black;
+}
+
+
+.atleta{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+
+.atleta-3{
+    display: flex;
+    flex-direction: row; 
+    gap: 17rem;
+    padding: 10rem;
+    
+}
+
+.t-atleta{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22.5px;
+    font-weight: bold;
+    padding-top: .8rem;
+}
+
+.p-atleta{
+    font-size: 15px;
+    padding-top: 3rem;
+    padding-bottom: 20px;
+    
+}
+
+.farlley{
+    height: 28rem;
+    padding-bottom: 20px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 0 auto;
+    
+}
+
+
+.card-blog{
+
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 15px;
+    border: 2px solid rgb(214, 205, 205);
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    margin-left: 1rem;
+    
+}
+
+.card-text{
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.blogtext{
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    width: 400px;
+    color: black;
+}
+
+.card-footer{
+    padding-top: 5px;
+    font-size: 17px;
+    
+}
+
+.text{
+    font-size: 15px;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.prg{
+    font-size: 12px;
+    padding-top: 1rem;
+    justify-content: center;
+   
+}
+
+.form{
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 3rem;
+}
+
+.submit{
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 3rem;
+    background-color: grey;
+}
+
+.inscrever{
+    margin: 0;
+    border: none;
+    color: black;
+    background-color: #8b4c4c;
+    padding-top: 10px;
+    border-top: 3px solid black;
+}
+
+
+
+#footer{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    
+}
+
+.card-img-top{
+    margin-bottom: 15px;
+    height: 240px;
+    width: 240px;
+}
+
+.blogfoto{
+    margin-bottom: 15px;
+    height: 200px;
+    width: 400px;
+    
+}
+
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.foto{
+    
+    padding: 4px;
+    height: 200px;
+    width: 480px;
+}
+
+
+.descricao{
+    
+        height: 55rem;
+        padding-bottom: 20px;
+    
+}
+
+
+
+.t-descricao{
+    padding-top: 90px;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.p-descricao{
+    font-size: 18px;
+}
+
+
+.atleta-2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 8rem;
+    margin-bottom: 15rem;
+}
+
+
+
+.t-descricao-2{
+    padding-top: 40px;
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    
+}
+
+.p-descricao-2{
+    font-size: 17px;
+    padding-top: 1rem;
+    width: 600px;
+}
+
+.mini-svg{
+    height: 90px;
+    width: 90px;
+    padding-top: 12px;
+    background-color: rgb(155, 146, 146);
+    border-radius: 3rem;
+    
+}
+
+.mini-text{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mini-h1{
+    text-align: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.mini-p{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 7rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+
+#mini-bar-produto{
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    color: black;
+    margin: 0;
+    padding-bottom: 10rem;
+    padding-top: 8rem;
+}
+
+
+#outros{
+    margin-bottom: 10rem;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+
+
+.descricao-whey{
+    
+    height: 36rem;
+    padding-bottom: 20px;
+    padding-top: 4rem;
+}
+
+
+.tabela, .ingredientes{
+    padding-left: 8rem;
+    width: 42rem;
+    margin-bottom: 8rem;
+}
+
+.tabela-text{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: red;
+    margin-bottom: 5rem;
+   
+}
+
+.button-q{
+    background-color: grey;
+    color: white;
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.comprar{
+    background-color: rgb(175, 63, 63);
+    color: white;
+    width: 120px; 
+    font-size: 10px;
+}
+
+.lerblog{
+    background-color: rgb(53, 48, 48);
+    color: white;
+    width: 300px; 
+    font-size: 12px;
+}
+
+.ad-carrinho{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.input{
+    width: 50px;
+    margin: 10px;
+}
+
+.valor{
+    color: red;
+    font-size: 22px;
+}
+
+.small{
+    color: black;
+    font-size: 12px;
+}
+
+
+.cep{
+    font-size: 10px;
+}
+
+.calcular{
+    background-color:  #afadad;
+    color: #747070;
+}
+
+.frete{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding-top: 10px;
+}
+
+.frete-2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

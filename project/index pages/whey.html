@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Whey 100% Pure | Whey protein concentrado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/imagens/icon website.png">
+    <link rel="stylesheet" href="/search.css">
+    <link rel="stylesheet" href="/css/cart.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+
+  <header id="header" class="py-1 row fixed-top">
+
+    <div  class="col d-flex justify-content-between">
+          <a class="link" style="text-decoration: none; color: white; font-size: 40px;" href="/index pages/index.html"><img class="pb-1 " src="/imagens/icon website.png" style="height: 50px; width: 50px;" alt=""> PowerWL</a>
+          <div class="buscar"><input id="inputbusca" onkeyup="filtrar()" class="search" type="text" placeholder=" O que você Procura?"><ul id="listaProdutos"></ul></div>
+         <div id="box-svg">
+          <a  href="/assets/html/signin.html"><img id="user" src="/imagens/svg/user.svg" alt="" style="height: 30px; width: 30px;"></a><h1 style="font-size: 20px;color: black; padding-top: 5px;" id="logado"></h1>
+            
+
+          <div class="nav container">
+            
+            <!-- CART ICON  -->
+            <i class='bx bx-shopping-bag'style="font-size: 30px; " id="cart-icon"></i>
+
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Seu Carrinho</h2>
+
+                <!-- CONTENT  -->
+                <div class="cart-content">
+
+
+                </div>
+
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+               
+                <!-- BUY BUTTON  -->
+              <div class="row">
+                <button type="button" class="btn-buy col">Finalizar</button>
+                <button type="button" class="btn-clear-cart col">Limpar Carrinho</button>
+                <!-- CART CLOSE  -->
+              </div>
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+
+          <button id="botaoSair" onclick="sair()" style="font-size: 20px; background-color: #8b4c4c; border: none; margin: 0; padding-bottom: 10px; display: none;"><h1 id="bs">Sair</h1></button>
+
+        </div> 
+      </div>
+  </header>
+
+    <ul id="menu" class="nav justify-content-center">
+      <li class="nav-itema col-3">
+          <a class="nav-link" aria-current="page" href="#tabela">Tabela nutricional</a>
+      </li>
+      <li class="nav-itema col-2">
+          <a class="nav-link" href="#beneficios">Benefícios</a>
+      </li>
+      <li class="nav-itema col-2">
+          <a class="nav-link" href="#wheyprotein"> O que é Whey?</a>
+      <li class="nav-itema col-2">
+          <a class="nav-link" href="#comousar"> Como Usar? </a>
+  </ul>
+    
+
+  <section class="atleta ">
+    
+    <img src="/imagens/produtos/whey.png" class="descricao"  alt=""></main>
+    <article>
+        <h1 class="t-descricao  ">Whey 100% Pure</h1>
+        <p class="valor">R$ 99,99 <small class="small"><small>2x de R$50,00.</small></small></p>   
+    <p class="p-descricao">O Whey 100% Pure Pouch é o suplemento ideal e essencial para quem busca ganho de massa magra e recuperação muscular. Composto pela pro... <a class="" href="#wheyprotein">ver mais</a> </p>
+    
+    <p> <a href="#tabela"> <img src="" alt="">Ver tabela nutricional </a></p>
+
+    <p>Sabor do Produto: Chocolate</p>
+    <p>Tamanho do Produto: 900g</p>
+    
+    <div class="row">
+    <div class="col">
+
+      <button class="button-q decrease">-</button>
+      <input class="input" type="text" value="1">
+      <button class="button-q increase">+</button>
+      <button class="ad-carrinho">Adicionar ao Carrinho</button>
+      
+
+  </div>
+  </div>
+
+    <p class="frete"> Calculo o frete e o prazo de entrega</p>
+    <p class="frete-2">Entrega no mesmo dia para algumas regiões de Salvador</p>
+    <input class="input-2" type="text">
+        <button class="calcular">calcular</button>
+    <p class="cep"><a href=""> Não sei meu cep</a></p>
+
+
+</article>
+</section>
+
+<h1 id="tabela" class="mini-h1">Tabela Nutricional</h1>
+<p class="mini-p">INFORMAÇÃO NUTRICIONAL / NUTRITION FACTS Porção de 2,96 g [4 cápsulas de 740 mg] /Serving size 2,96 g [4 capsules of 740 mg]</p>
+
+<div class="row"> 
+
+    <div class="col">
+    <h1 class="tabela-text">INFORMAÇÃO NUTRICIONAL</h1>
+    <h1 class="tabela"><img src="/imagens/minibar Produto/tabela.jpeg" alt=""></h1>
+    </div>
+    <div class="col">
+    <h1 class="tabela-text">INGREDIENTES</h1>
+    <p class="ingredientes">Leucina, isoleucina, valina, cápsula (gelatina e água purificada), vitamina B6 (piridoxina), antiaglutinante celulose microcristalina e antiumectante dióxido de silício NÃO CONTÉM GLÚTEN</p>
+    </div>
+</div>
+
+
+
+
+
+<h1 id="beneficios" class="mini-h1">Benefícios do Whey Protein Concentrado</h1>
+<div id="mini-bar-produto" class="row ">
+  <div class="col"> <p>
+      <img class="mini-svg"  src="/imagens/minibar Produto/biceps.png" alt="">
+    </p>
+    <p class="mini-text">Recuperação Muscular</p>
+    </div>
+
+    <div class="col"> <p>
+      <img class="mini-svg"  src="/imagens/minibar Produto/emagrecer.png" alt="">  
+    </p>
+    <p class="mini-text">Ganho de Massa Muscular</p>
+    </div>
+
+    <div class="col"> <p>
+      <img class="mini-svg"  src="/imagens/minibar Produto/força.png" alt="">
+    </p>
+    <p class="mini-text">Aumento de Força</p>
+    </div>
+
+    <div class="col"> <p>
+      <img class="mini-svg"  src="/imagens/minibar Produto/pose.png" alt=""> 
+    </p>
+    <p class="mini-text">Manutenção da Massa Magra</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<section id="wheyprotein" class="atleta ">
+    
+    <img src="/imagens/minibar Produto/body.jpeg" class="descricao-whey"  alt=""></main>
+    
+    <article>
+        <h1 class="t-descricao-2 ">O que é Whey Protein concentrado?</h1>   
+    <p class="p-descricao-2">O Whey 100% Pure Pouch é o suplemento ideal e essencial para quem busca ganho de massa magra e recuperação muscular. Composto pela proteína concentrada do soro de leite, são 20 g de proteína por dose, 9,7 g de aminoácidos essenciais e 4,6 g de BCAA.</p>
+
+    <p class="p-descricao-2">Uma ótima opção para o pós treino, o Whey 100% Pure Pouch auxilia na manutenção da massa magra, possui baixo teor de carboidrato, gordura e sódio. Zero Glúten.
+
+        <p class="p-descricao-2">Alta qualidade para a sua suplementação, o Whey 100% Pure Integralmédica contém matéria-prima importada, e ótima absorção pelo organismo, evitando a sensação de inchaço após o consumo.</p>
+
+        <p class="p-descricao-2">A proteína do soro é a fonte mais nobre de proteína do leite com alto valor biológico, isso devido a sua alta concentração de aminoácidos essenciais e aminoácidos de cadeia ramificada (BCAA), esses aminoácidos têm papel fundamental na síntese de proteínas e construção muscular.</p>
+
+        <p class="p-descricao-2">Whey 100% Pure Integralmédica está disponível em 6 sabores, versões pote de 900g, pote de 450g, Pouch de 900g e Pouch de 1,8kg.</p>
+    </article>
+
+</section>
+
+
+
+
+
+
+      <section  id="comousar" class="atleta-2">
+        <article>
+        <h1 class="t-descricao-2 ">Como e quando tomar Whey Protein Concentrado?</h1>   
+         <p class="p-descricao-2">O Whey 100% Pure Pouch pode ser utilizado logo após o treino, para otimizar a disponibilidade de aminoácidos devido à uma maior absorção do organismo. Entretanto, já sabemos que é fundamental que a proteína de alto valor biológico seja ingerida durante as 24 horas do dia, especialmente para manter alta as concentrações de aminoácidos essenciais, por isso pode ser consumido entre as refeições também. Pode ser ingerida com água quando o objetivo for manter a rápida absorção da proteína e o baixo teor de gorduras e carboidratos, ou adição também de frutas e aveia quando o objetivo for aumento da saciedade ou substituir uma refeição, como o café da manhã, por exemplo.</p>
+        </article>
+
+        <article>
+            <img src="/imagens/minibar Produto/tomandowhey.png" class="farlley"  alt=""></main>
+        </article>
+
+    </section>
+
+
+
+
+
+
+    <div id="titulo" class="py-5 ">
+        <h2 > Quem viu, viu também:</h2>
+    </div>
+    
+    <section class="shop container">
+      
+
+      <!-- CONTENT  -->
+      <div class="shop-content">
+          <!-- BOX 1 -->
+          <div class="product-box">
+            <a href="/index pages/whey.html"> <img src="/imagens/produtos/whey.png" alt="" class="product-img"></a>
+              <h2 class="product-title">whey</h2>
+              <span class="product-price">$79.5</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 2 -->
+          <div class="product-box">
+              <a href="/index pages/bcaa.html"><img src="/imagens/produtos/bcaa.png" alt="" class="product-img"></a>
+              <h2 class="product-title">bcaa 2044mg</h2>
+              <span class="product-price">$59.5</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 3 -->
+          <div class="product-box">
+            <a href="/index pages/whey.html">  <img src="/imagens/produtos/whey.png" alt="" class="product-img"></a>
+            <h2 class="product-title">whey</h2>
+            <span class="product-price">$79.5</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 4 -->
+          <div class="product-box">
+            <a href="/index pages/bcaa.html">   <img src="/imagens/produtos/bcaa.png" alt="" class="product-img"></a>
+              <h2 class="product-title">bcaa 2044mg premium</h2>
+              <span class="product-price">$105</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+  
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+      <form  class="inscrever row mt-4">
+
+        <h2 class="col-3 text">Receba Nossa WLsletter 
+          <small> <p class="prg">Assine a nossa WLsletter e receba as novidades e conteúdos exclusivos da PowerWL</p></small>
+       </h2>
+            <input class="form col-3"  type="text" placeholder="nome">
+           <input class="form col-3" type="text" placeholder="email">
+           <button class="submit col-2" type="submit"> ENVIAR</button>
+       </form>
+
+
+       
+       <footer id="footer" class="pt-0 ">
+        <p class="my-0">&copy feito por juan felipe</p>
+    
+</footer>
+
+
+
+<script>
+  // Capturar elementos
+  const input = document.querySelector('.input');
+  const decreaseButton = document.querySelector('.decrease');
+  const increaseButton = document.querySelector('.increase');
+  const addToCartButton = document.querySelector('.ad-carrinho');
+
+  // Adicionar listener de clique para o botão "Adicionar ao Carrinho"
+  addToCartButton.addEventListener('click', () => {
+    // Obter o valor do input
+    const quantity = parseInt(input.value);
+
+    // Adicionar lógica para adicionar ao carrinho aqui
+    // Por exemplo:
+    // addToCart(quantity);
+    // Ou atualize o carrinho de acordo com sua implementação
+  });
+
+  // Adicionar listener de clique para o botão de diminuir
+  decreaseButton.addEventListener('click', () => {
+    // Obter o valor atual do input
+    let currentValue = parseInt(input.value);
+
+    // Decrementar o valor se for maior que 1
+    if (currentValue > 1) {
+      currentValue--;
+      input.value = currentValue;
+    }
+  });
+
+  // Adicionar listener de clique para o botão de aumentar
+  increaseButton.addEventListener('click', () => {
+    // Obter o valor atual do input
+    let currentValue = parseInt(input.value);
+
+    // Incrementar o valor
+    currentValue++;
+    input.value = currentValue;
+  });
+</script>
+
+<script>
+  // Função para lidar com o clique no botão de limpar carrinho
+  function handle_clearCart() {
+    const cartContent = document.querySelector(".cart-content");
+    cartContent.innerHTML = ""; // Limpa o conteúdo do carrinho
+    itemsAdded = []; // Reinicia a lista de itens adicionados
+    updateTotal(); // Atualiza o total do carrinho
+  }
+
+  // Adicionando o evento de clique ao botão "Limpar Carrinho"
+  const clearCartBtn = document.querySelector(".btn-clear-cart");
+  clearCartBtn.addEventListener("click", handle_clearCart);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/assets/js/logado.js"></script>
+<script src="/search.js"></script>
+<script src="/assets/js/cart.js"></script>
+</body>

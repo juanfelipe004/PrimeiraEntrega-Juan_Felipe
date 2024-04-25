@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blog | Notícias Recentes</title>
+    <link rel="icon" href="/imagens/icon website.png">
+    <link rel="stylesheet" href="/search.css">
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        // Função para lidar com o clique no botão de limpar carrinho
+        function handle_clearCart() {
+          const cartContent = document.querySelector(".cart-content");
+          cartContent.innerHTML = ""; // Limpa o conteúdo do carrinho
+          itemsAdded = []; // Reinicia a lista de itens adicionados
+          updateTotal(); // Atualiza o total do carrinho
+        }
+      
+        // Adicionando o evento de clique ao botão "Limpar Carrinho"
+        const clearCartBtn = document.querySelector(".btn-clear-cart");
+        clearCartBtn.addEventListener("click", handle_clearCart);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="/search.js"></script>
+<script src="/assets/js/cart.js"></script>
+<script src="/assets/js/index.js"></script>
+</body>
+</html>

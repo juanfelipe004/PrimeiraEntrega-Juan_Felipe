@@ -1,0 +1,125 @@
+
+
+.buscar{
+    width: 45%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+}
+
+
+.search{
+    width: 90%;
+    height: 45px;
+    padding-left: 20px;
+    font-size: 28px;
+    border-radius: 5px;
+}
+
+
+#listaProdutos{
+    display: none;
+    width: 91%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 52px;
+}
+
+#listaProdutos li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 1px solid #ddd;
+    background: #f6f6f6;
+    padding: 12px;
+
+}
+
+#listaProdutos li a:hover{
+    background: #eee;
+}
+
+.item-name{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
